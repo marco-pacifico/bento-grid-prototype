@@ -81,7 +81,7 @@ function ProductCard() {
 
 function CategoryCard() {
   return (
-    <div className="bg-blue-500 col-span-1 sm:col-span-2 row-span-3 rounded-lg min-h-[128px]">
+    <div className="bg-blue-500 col-span-1 sm:col-span-2 row-span-3 rounded-lg min-h-[128px] lg:min-h-[224px]">
       <h2 className="text-sm font-semibold p-4 text-white">Category</h2>
     </div>
   );
