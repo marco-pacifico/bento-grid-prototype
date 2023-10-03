@@ -1,0 +1,11 @@
+main {
+  --container-sm-width: 1064px;
+  --container-width: 1204px;
+  --container-lg-width: 1280px;
+  --gutter: 32px;
+
+  margin: 0 auto;
+  max-width: var(--container-width);
+  padding: 0 var(--gutter);
+  width: 100%;
+}
