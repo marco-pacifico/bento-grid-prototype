@@ -9,8 +9,8 @@ export default function Home() {
       <Link href={"/"} className="underline">
         Back
       </Link>
-      <h1>V3</h1>
-      <div className="flex gap-4 flex-col sm:flex-row">
+      <h1>V4</h1>
+      <div className="flex gap-4 flex-col md:flex-row">
         <div className="grid grid-cols-2 gap-4 auto-rows-auto flex-1">
           {CARDS.map((Component, index) => (
             <Component key={index} />
@@ -89,7 +89,7 @@ function ProductCard() {
 
 function CategoryCard() {
   return (
-    <div className="bg-blue-500 col-span-1 row-span-3 rounded-lg min-h-[128px] lg:min-h-[224px]">
+    <div className="bg-blue-500 col-span-1 row-span-3 rounded-lg min-h-[160px] lg:min-h-[224px]">
       <h2 className="text-sm font-semibold p-4 text-white">Category</h2>
     </div>
   );
